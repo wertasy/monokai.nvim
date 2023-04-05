@@ -565,7 +565,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.aqua,
     },
     ["@function.call"] = {
-      fg = palette.white,
+      fg = palette.aqua,
     },
     ["@function.macro"] = {
       fg = palette.green,
@@ -592,12 +592,21 @@ M.load_plugin_syntax = function(palette)
     ["@label"] = {
       fg = palette.pink,
     },
+    ["@local.scope"] = {
+        fg = palette.yellow,
+    },
+    ["@local.definition"] = {
+        fg = palette.green,
+    },
+    ["@local.reference"] = {
+        fg = palette.white,
+    },
     ["@math"] = math_group,
     ["@method"] = {
       fg = palette.green,
     },
     ["@method.call"] = {
-      fg = palette.white,
+      fg = palette.aqua,
     },
     ["@namespace"] = {
       fg = palette.purple,
